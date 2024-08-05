@@ -1,0 +1,67 @@
+.home-table{
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0 ,0 , 0, 0.5);
+
+}
+.home-table thead tr{
+    background-color: blue;
+    color: #ffffff;
+    text-align: left;
+}
+.home-table th,
+.home-table td{
+    padding: 12px 15px;
+}
+.home-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+.home-table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+.home-table tbody tr:last-of-type{
+    border-bottom: 2px solid #0575a1;
+}
+.btn{
+    border: none;
+    color: white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.btn-edit{
+    background-color: #0575a1;
+
+}
+.btn-delete{
+    background-color: #f44336;
+
+}
+.btn-view{
+    background-color: #e7e7e7;
+    color: black;
+}
+.dropdown{
+    width: 20%;
+    margin: 5px;
+}
+.btn-reset{
+    background-color: #c7433aa9;
+    color: black;
+}
+.btn-active{
+    background-color: #18942da9;
+    color: black;
+}
+.btn-inactive{
+    background-color: #445f61;
+    color: black;
+}
